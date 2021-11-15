@@ -166,6 +166,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             btn[i]=(Button) findViewById(resourceID);
             gameState[i] = 2;
             btn[i].setText("");
+            Drawable  drawable = getResources().getDrawable(R.drawable.empty);
+            imgView.setImageDrawable(drawable);
         }
     }
 
